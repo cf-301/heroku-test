@@ -9,6 +9,7 @@
 		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="css/base.css" />
 		<link rel="stylesheet" href="css/layout.css" />
@@ -22,6 +23,7 @@
 				<div class="top">
 
 					<!-- Logo -->
+					
 						<div id="logo">
 							<span class="image avatar48"><img src="" alt="" /></span>
 							<h1 id="title">Spencer Hirata</h1>
@@ -57,20 +59,46 @@
 			<div id="main">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+				<section id="jssor_1" class="one dark cover" style="position:relative; top:0px;left:0px;overflow:hidden;">
+						<div data-u="slides" id="slideDimensions" class="container" style="position:absolute;top:0px;left:0px;overflow:hidden;">
+							
+								<div><img data-u="image" src="http://wallpapers-best.com/uploads/posts/2015-10/12_galaxy.jpg" />
+								
+									<header>
+											<h2 class="alt"><strong>Hi! I'm Spencer, a Node.js developer</strong></h2>
+										</header>
+			
+										<footer>
+											<a href="#portfolio" class="button scrolly">Portfolio</a>
+										</footer>
 
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Spencer</strong>, a Node.js developer</h2>
-							</header>
-
-							<footer>
-								<a href="#portfolio" class="button scrolly">Portfolio</a>
-							</footer>
-
+								</div>
+								<div><img data-u="image" src="https://juegosrev.com/wp-content/uploads/2017/06/Triangle-galaxy-wallpaper-Gallery-68-Plus-PIC-WPT4077.jpg?w=539&h=381" />
+								
+									<header>
+											<h2 class="alt"><strong>Enjoy my portfolio!</strong></h2>
+										</header>
+			
+										<footer>
+											<a href="#portfolio" class="button scrolly">Portfolio</a>
+										</footer>
+								
+								</div>
+								<div><img data-u="image" src="https://tse2.mm.bing.net/th?id=OIP.Vw1unWQTZRY1XUBYJIoJoQHaEo&pid=15.1&P=0&w=273&h=172" />
+								
+									<header>
+											<h2 class="alt"><strong>No really, get down there</strong></h2>
+										</header>
+			
+										<footer>
+											<a href="#portfolio" class="button scrolly">Portfolio</a>
+										</footer>
+								
+								</div>
+								
 						</div>
-					</section>
-
+				</section>
+					
 				<!-- Portfolio -->
 					<section id="portfolio" class="two">
 						<div class="container">
@@ -84,13 +112,13 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="https://youtu.be/UJ2afa0lezw" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="https://youtu.be/UJ2afa0lezw" class="image fit"></a>
 										<header>
 											<h3>Box Game video</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="http://adventure-game-final-project.herokuapp.com/contact" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="http://adventure-game-final-project.herokuapp.com/contact" class="image fit"></a>
 										<header>
 											<h3>Pachinko!</h3>
 										</header>
@@ -98,13 +126,13 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="#" class="image fit"></a>
 										<header>
 											<h3>Future 401 project</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<a href="#" class="image fit"></a>
 										<header>
 											<h3>Future 301 project</h3>
 										</header>
@@ -112,7 +140,7 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="https://tranquil-meadow-69122.herokuapp.com/" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="https://tranquil-meadow-69122.herokuapp.com/" class="image fit"></a>
 										<header>
 											<h3>Personal projects</h3>
 										</header>
@@ -132,9 +160,9 @@
 								<h2>About Me</h2>
 							</header>
 
-							<p>Node/react developer with HIGH hopes to end up at Twitch and start my own company. At this point in time, I just need time in the seat. 
+							<p>Node/react developer with HIGH hopes to end up at Twitch and start my own company. At this point in time, I just need time in the seat.<br>
 
-								Personal Website: https://salty-lowlands-46957.herokuapp.com/
+								 <a href="https://salty-lowlands-46957.herokuapp.com/"><em>!Personal Website!</em></a><br>
 								
 								Main languages and APIs:
 								Python 3,  Python Flask, pyMySql, pygames, Bootstrap,
@@ -188,13 +216,21 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
+		
+			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 			<script src="js/jquery.scrolly.min.js"></script>
-			<script src="js/jquery.scrollex.min.js"></script>
-			<script src="js/browser.min.js"></script>
-			<script src="js/breakpoints.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/jquery.scrollex@0.2.1/jquery.scrollex.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/browser-js@1.0.0/browser.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/gh/ajlkn/responsive-tools@1.0/dist/breakpoints.min.js"></script>
 			<script src="js/util.js"></script>
 			<script src="js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/jssor-slider@27.5.0/js/jssor.slider.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = { $AutoPlay: 1 };
+            var jssor1_slider = new $JssorSlider$("jssor_1", options);
+        });
+    </script>
 
 	</body>
 </html>
